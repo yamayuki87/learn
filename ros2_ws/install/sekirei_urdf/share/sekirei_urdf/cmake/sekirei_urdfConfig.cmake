@@ -1,1 +1,0 @@
-/home/yhcvy/ros2_ws/build/sekirei_urdf/ament_cmake_core/sekirei_urdfConfig.cmake

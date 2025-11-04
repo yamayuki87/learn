@@ -1,1 +1,0 @@
-/home/yhcvy/ros2_ws/src/arm_controller/launch/demo.launch.py

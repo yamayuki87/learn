@@ -1,1 +1,0 @@
-/home/yhcvy/ros2_ws/build/arm_controller/ament_cmake_core/arm_controllerConfig-version.cmake
