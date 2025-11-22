@@ -1,0 +1,83 @@
+[WARN] [1761806665.987731866] [move_group]: Using default pipeline 'ompl'
+[INFO] [1761806665.991086233] [moveit.moveit.ros.rdf_loader]: Loaded robot model in 0.00179118 seconds
+[INFO] [1761806665.991247652] [moveit.moveit.core.robot_model]: Loading robot model 'sekirei'...
+[INFO] [1761806665.991261662] [moveit.moveit.core.robot_model]: No root/virtual joint specified in SRDF. Assuming fixed joint
+[WARN] [1761806665.991376913] [moveit.moveit.core.robot_model]: Could not identify parent group for end-effector 'end_effector'
+[WARN] [1761806666.006902805] [kdl_parser]: The root link base_link has an inertia specified in the URDF, but KDL does not support a root link with an inertia.  As a workaround, you can add an extra dummy link to your URDF.
+[INFO] [1761806666.007066878] [moveit.moveit.kinematics.kdl_kinematics_plugin]: Joint weights for group 'sekirei_arm': 1 1 1 1 1 1
+[INFO] [1761806666.075055189] [moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1761806666.075586585] [moveit.moveit.ros.moveit_cpp]: Listening to 'joint_states' for joint states
+[INFO] [1761806666.077994433] [moveit.moveit.ros.current_state_monitor]: Listening to joint states on topic 'joint_states'
+[INFO] [1761806666.079172111] [moveit.moveit.ros.planning_scene_monitor]: Listening to '/attached_collision_object' for attached collision objects
+[INFO] [1761806666.079218290] [moveit.moveit.ros.planning_scene_monitor]: Stopping existing planning scene publisher.
+[INFO] [1761806666.079638061] [moveit.moveit.ros.planning_scene_monitor]: Stopped publishing maintained planning scene.
+[INFO] [1761806666.081691086] [moveit.moveit.ros.planning_scene_monitor]: Publishing maintained planning scene on 'monitored_planning_scene'
+[INFO] [1761806666.081837882] [moveit.moveit.ros.planning_scene_monitor]: Starting planning scene monitor
+[INFO] [1761806666.082844867] [moveit.moveit.ros.planning_scene_monitor]: Listening to '/planning_scene'
+[INFO] [1761806666.082887129] [moveit.moveit.ros.planning_scene_monitor]: Starting world geometry update monitor for collision objects, attached objects, octomap updates.
+[INFO] [1761806666.084354121] [moveit.moveit.ros.planning_scene_monitor]: Listening to 'collision_object'
+[INFO] [1761806666.086359361] [moveit.moveit.ros.planning_scene_monitor]: Listening to 'planning_scene_world' for planning scene world geometry
+[WARN] [1761806666.087585452] [moveit.moveit.ros.occupancy_map_monitor]: Resolution not specified for Octomap. Assuming resolution = 0.1 instead
+[ERROR] [1761806666.087694504] [moveit.moveit.ros.occupancy_map_monitor]: No 3D sensor plugin(s) defined for octomap updates
+[INFO] [1761806666.831843147] [moveit.moveit.ros.planning_pipeline]: Successfully loaded planner 'OMPL'
+[INFO] [1761806666.832615705] [move_group]: Try loading adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[INFO] [1761806666.835267278] [move_group]: Loaded adapter 'default_planning_request_adapters/ResolveConstraintFrames'
+[INFO] [1761806666.835339127] [move_group]: Try loading adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[INFO] [1761806666.836420585] [move_group]: Loaded adapter 'default_planning_request_adapters/ValidateWorkspaceBounds'
+[INFO] [1761806666.836468837] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[INFO] [1761806666.836524835] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateBounds'
+[INFO] [1761806666.836531846] [move_group]: Try loading adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[INFO] [1761806666.836542546] [move_group]: Loaded adapter 'default_planning_request_adapters/CheckStartStateCollision'
+[WARN] [1761806666.836545496] [moveit.moveit.ros.planning_pipeline]: No planning response adapter names specified.
+[INFO] [1761806666.896427050] [moveit.moveit.plugins.simple_controller_manager]: Added FollowJointTrajectory controller for fake_arm_controller
+[INFO] [1761806666.896789516] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806666.896821793] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806666.898534344] [moveit.moveit.ros.trajectory_execution_manager]: Trajectory execution is managing controllers
+[INFO] [1761806666.898608500] [move_group]: MoveGroup debug mode is ON
+[INFO] [1761806666.956645880] [moveit.moveit.ros.move_group.executable]: 
+
+********************************************************
+* MoveGroup using: 
+*     - apply_planning_scene_service
+*     - clear_octomap_service
+*     - get_group_urdf
+*     - load_geometry_from_file
+*     - CartesianPathService
+*     - execute_trajectory_action
+*     - get_planning_scene_service
+*     - kinematics_service
+*     - move_action
+*     - motion_plan_service
+*     - query_planners_service
+*     - state_validation_service
+*     - save_geometry_to_file
+********************************************************
+
+[INFO] [1761806666.956723837] [moveit.moveit.ros.move_group.context]: MoveGroup context using pipeline ompl
+[INFO] [1761806666.956732658] [moveit.moveit.ros.move_group.context]: MoveGroup context initialization complete
+[INFO] [1761806700.570032642] [moveit.moveit.ros.move_group.move_action]: MoveGroupMoveAction: Received request
+[INFO] [1761806700.570642764] [moveit.moveit.ros.move_group.move_action]: executing..
+[INFO] [1761806700.583100508] [moveit.moveit.ros.move_group.move_action]: Planning request received for MoveGroup action. Forwarding to planning pipeline.
+[INFO] [1761806700.583300903] [moveit.moveit.ros.move_group.capability]: Using planning pipeline 'ompl'
+[INFO] [1761806700.583702550] [move_group]: Calling PlanningRequestAdapter 'ResolveConstraintFrames'
+[INFO] [1761806700.583919261] [move_group]: Calling PlanningRequestAdapter 'ValidateWorkspaceBounds'
+[INFO] [1761806700.583954303] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateBounds'
+[INFO] [1761806700.584123045] [move_group]: Calling PlanningRequestAdapter 'CheckStartStateCollision'
+[INFO] [1761806700.594922650] [moveit.moveit.planners.ompl.model_based_planning_context]: Planner configuration 'sekirei_arm' will use planner 'geometric::RRTConnect'. Additional configuration parameters will be set when the planner is constructed.
+[INFO] [1761806700.596998289] [move_group]: Calling Planner 'OMPL'
+[WARN] [1761806700.621597994] [moveit.moveit.ros.planning_pipeline]: The planner plugin did not fill out the 'planner_id' field of the MotionPlanResponse. Setting it to the planner ID name of the MotionPlanRequest assuming that the planner plugin does warn you if it does not use the requested planner.
+[INFO] [1761806700.621843484] [moveit.moveit.ros.move_group.move_action]: Motion plan was computed successfully.
+[INFO] [1761806701.850202813] [moveit.moveit.ros.move_group.clear_octomap_service]: Execution request received
+[INFO] [1761806701.850325453] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806701.850369221] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806701.850640859] [moveit.moveit.ros.trajectory_execution_manager]: Validating trajectory with allowed_start_tolerance 0.01
+[INFO] [1761806701.884177324] [moveit.moveit.ros.trajectory_execution_manager]: Starting trajectory execution ...
+[INFO] [1761806701.884637172] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806701.884731294] [moveit.moveit.plugins.simple_controller_manager]: Returned 1 controllers in list
+[INFO] [1761806701.885246092] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: sending trajectory to fake_arm_controller
+[INFO] [1761806701.898198040] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: fake_arm_controller started execution
+[INFO] [1761806701.898303873] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Goal request accepted!
+[INFO] [1761806701.902801392] [moveit.simple_controller_manager.follow_joint_trajectory_controller_handle]: Controller 'fake_arm_controller' successfully finished
+[INFO] [1761806701.984332074] [moveit.moveit.ros.trajectory_execution_manager]: Completed trajectory execution with status SUCCEEDED ...
+[INFO] [1761806701.984714076] [moveit.moveit.ros.move_group.clear_octomap_service]: Execution completed: SUCCEEDED
+[INFO] [1761806722.633071319] [rclcpp]: signal_handler(signum=2)

@@ -1,0 +1,5 @@
+[INFO] [1761806666.764626940] [fake_controller]: Fake trajectory controller started
+[INFO] [1761806666.765293634] [fake_controller]: Listening on: /fake_arm_controller/follow_joint_trajectory
+[INFO] [1761806666.765530374] [fake_controller]: Listening on: /joint_commands for manual control
+[INFO] [1761806701.899044894] [fake_controller]: Received trajectory execution request
+[INFO] [1761806701.901196509] [fake_controller]: Trajectory execution completed successfully

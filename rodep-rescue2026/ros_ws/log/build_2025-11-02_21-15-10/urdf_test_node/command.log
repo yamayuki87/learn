@@ -1,0 +1,4 @@
+Invoking command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node -- -j12 -l12
+Invoked command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node -- -j12 -l12
+Invoking command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node
+Invoked command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy /usr/bin/cmake --install /home/yhcvy/rodep-rescue2026/ros_ws/build/urdf_test_node

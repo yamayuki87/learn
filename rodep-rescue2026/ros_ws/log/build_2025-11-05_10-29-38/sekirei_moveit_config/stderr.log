@@ -1,0 +1,22 @@
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:23:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+   23 |   auto move_group_interface = [01;31m[KMoveGroupInterface[m[K(node, "sekirei_arm");
+      |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+      |                               [32m[Kmoveit::planning_interface::MoveGroupInterface[m[K
+In file included from [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:5[m[K:
+[01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:75:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+   75 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+      |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:[m[K In lambda function:
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+   44 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:42:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+   42 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K {
+      |                                                      [01;36m[K^[m[K
+[01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:23:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+   23 |   auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node, "sekirei_arm");
+      |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/testn.dir/build.make:76: CMakeFiles/testn.dir/src/testn.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testn.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

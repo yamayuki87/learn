@@ -1,0 +1,25 @@
+[0.246s] Invoking command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config -- -j12 -l12
+[1.003s] [ 50%] [32mBuilding CXX object CMakeFiles/testn.dir/src/testn.cpp.o[0m
+[28.438s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[28.439s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:23:31:[m[K [01;31m[Kerror: [m[K‘[01m[KMoveGroupInterface[m[K’ was not declared in this scope; did you mean ‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’?
+[28.439s]    23 |   auto move_group_interface = [01;31m[KMoveGroupInterface[m[K(node, "sekirei_arm");
+[28.439s]       |                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.439s]       |                               [32m[Kmoveit::planning_interface::MoveGroupInterface[m[K
+[28.440s] In file included from [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:5[m[K:
+[28.440s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.hpp:75:42:[m[K [01;36m[Knote: [m[K‘[01m[Kmoveit::planning_interface::MoveGroupInterface[m[K’ declared here
+[28.440s]    75 | class MOVEIT_MOVE_GROUP_INTERFACE_EXPORT [01;36m[KMoveGroupInterface[m[K
+[28.440s]       |                                          [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[28.441s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:[m[K In lambda function:
+[28.441s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:44:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kmove_group_interface[m[K’ is not captured
+[28.441s]    44 |     auto const ok = static_cast<bool>([01;31m[Kmove_group_interface[m[K.plan(msg));
+[28.441s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[28.441s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:42:54:[m[K [01;36m[Knote: [m[Kthe lambda has no capture-default
+[28.441s]    42 |   auto const [success, plan] = [&move_group_interface[01;36m[K][m[K {
+[28.441s]       |                                                      [01;36m[K^[m[K
+[28.442s] [01m[K/home/yhcvy/rodep-rescue2026/ros_ws/src/sekirei_moveit_config/src/testn.cpp:23:8:[m[K [01;36m[Knote: [m[K‘[01m[K<typeprefixerror>move_group_interface[m[K’ declared here
+[28.442s]    23 |   auto [01;36m[Kmove_group_interface[m[K = MoveGroupInterface(node, "sekirei_arm");
+[28.442s]       |        [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[36.725s] gmake[2]: *** [CMakeFiles/testn.dir/build.make:76: CMakeFiles/testn.dir/src/testn.cpp.o] Error 1
+[36.726s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/testn.dir/all] Error 2
+[36.726s] gmake: *** [Makefile:146: all] Error 2
+[36.732s] Invoked command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config' returned '2': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config -- -j12 -l12

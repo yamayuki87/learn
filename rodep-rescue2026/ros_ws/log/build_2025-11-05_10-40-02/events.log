@@ -1,0 +1,280 @@
+[0.000000] (-) TimerEvent: {}
+[0.000352] (-) JobUnselected: {'identifier': 'cam_to_image'}
+[0.000460] (-) JobUnselected: {'identifier': 'crawler_driver'}
+[0.000548] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000610] (-) JobUnselected: {'identifier': 'flipper_driver'}
+[0.000636] (-) JobUnselected: {'identifier': 'joy_driver'}
+[0.000668] (-) JobUnselected: {'identifier': 'operator'}
+[0.000743] (-) JobUnselected: {'identifier': 'qrcode_reader'}
+[0.000816] (-) JobUnselected: {'identifier': 'urdf_test_node'}
+[0.000848] (sekirei_moveit_config) JobQueued: {'identifier': 'sekirei_moveit_config', 'dependencies': OrderedDict({'urdf_test_node': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node'})}
+[0.003500] (sekirei_moveit_config) JobStarted: {'identifier': 'sekirei_moveit_config'}
+[0.099951] (-) TimerEvent: {}
+[0.200925] (-) TimerEvent: {}
+[0.209397] (sekirei_moveit_config) JobProgress: {'identifier': 'sekirei_moveit_config', 'progress': 'cmake'}
+[0.213881] (sekirei_moveit_config) JobProgress: {'identifier': 'sekirei_moveit_config', 'progress': 'build'}
+[0.214101] (sekirei_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config', '--', '-j12', '-l12'], 'cwd': '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'yhcvy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yhcvy', 'OLDPWD': '/home/yhcvy/rodep-rescue2026', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yhcvy', 'NAME': 'LAPTOP-H4QB65NE', 'WSL_INTEROP': '/run/WSL/516_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/mingw64/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/yhcvy/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/yhcvy/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/yhcvy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yhcvy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[0.305229] (-) TimerEvent: {}
+[0.406067] (-) TimerEvent: {}
+[0.429259] (sekirei_moveit_config) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/testn.dir/src/testn.cpp.o\x1b[0m\n'}
+[0.506911] (-) TimerEvent: {}
+[0.607727] (-) TimerEvent: {}
+[0.708682] (-) TimerEvent: {}
+[0.809555] (-) TimerEvent: {}
+[0.910877] (-) TimerEvent: {}
+[1.011819] (-) TimerEvent: {}
+[1.113244] (-) TimerEvent: {}
+[1.215330] (-) TimerEvent: {}
+[1.316080] (-) TimerEvent: {}
+[1.417555] (-) TimerEvent: {}
+[1.518444] (-) TimerEvent: {}
+[1.619302] (-) TimerEvent: {}
+[1.720409] (-) TimerEvent: {}
+[1.821656] (-) TimerEvent: {}
+[1.922945] (-) TimerEvent: {}
+[2.024197] (-) TimerEvent: {}
+[2.125260] (-) TimerEvent: {}
+[2.225976] (-) TimerEvent: {}
+[2.327105] (-) TimerEvent: {}
+[2.427879] (-) TimerEvent: {}
+[2.528859] (-) TimerEvent: {}
+[2.629674] (-) TimerEvent: {}
+[2.731475] (-) TimerEvent: {}
+[2.832881] (-) TimerEvent: {}
+[2.933936] (-) TimerEvent: {}
+[3.035181] (-) TimerEvent: {}
+[3.136537] (-) TimerEvent: {}
+[3.237359] (-) TimerEvent: {}
+[3.338158] (-) TimerEvent: {}
+[3.439462] (-) TimerEvent: {}
+[3.540527] (-) TimerEvent: {}
+[3.641533] (-) TimerEvent: {}
+[3.742593] (-) TimerEvent: {}
+[3.843936] (-) TimerEvent: {}
+[3.945459] (-) TimerEvent: {}
+[4.046288] (-) TimerEvent: {}
+[4.147639] (-) TimerEvent: {}
+[4.249359] (-) TimerEvent: {}
+[4.350960] (-) TimerEvent: {}
+[4.452770] (-) TimerEvent: {}
+[4.553872] (-) TimerEvent: {}
+[4.655579] (-) TimerEvent: {}
+[4.756514] (-) TimerEvent: {}
+[4.861405] (-) TimerEvent: {}
+[4.962952] (-) TimerEvent: {}
+[5.064005] (-) TimerEvent: {}
+[5.165275] (-) TimerEvent: {}
+[5.266826] (-) TimerEvent: {}
+[5.367745] (-) TimerEvent: {}
+[5.468873] (-) TimerEvent: {}
+[5.569921] (-) TimerEvent: {}
+[5.671025] (-) TimerEvent: {}
+[5.772221] (-) TimerEvent: {}
+[5.874444] (-) TimerEvent: {}
+[5.975945] (-) TimerEvent: {}
+[6.077518] (-) TimerEvent: {}
+[6.178379] (-) TimerEvent: {}
+[6.280010] (-) TimerEvent: {}
+[6.382485] (-) TimerEvent: {}
+[6.483770] (-) TimerEvent: {}
+[6.585411] (-) TimerEvent: {}
+[6.687130] (-) TimerEvent: {}
+[6.788047] (-) TimerEvent: {}
+[6.888936] (-) TimerEvent: {}
+[6.989757] (-) TimerEvent: {}
+[7.090841] (-) TimerEvent: {}
+[7.192324] (-) TimerEvent: {}
+[7.294378] (-) TimerEvent: {}
+[7.395586] (-) TimerEvent: {}
+[7.496584] (-) TimerEvent: {}
+[7.597523] (-) TimerEvent: {}
+[7.698480] (-) TimerEvent: {}
+[7.799344] (-) TimerEvent: {}
+[7.900460] (-) TimerEvent: {}
+[8.001442] (-) TimerEvent: {}
+[8.102584] (-) TimerEvent: {}
+[8.203575] (-) TimerEvent: {}
+[8.304637] (-) TimerEvent: {}
+[8.405724] (-) TimerEvent: {}
+[8.507031] (-) TimerEvent: {}
+[8.608025] (-) TimerEvent: {}
+[8.708755] (-) TimerEvent: {}
+[8.811107] (-) TimerEvent: {}
+[8.912025] (-) TimerEvent: {}
+[9.013272] (-) TimerEvent: {}
+[9.115450] (-) TimerEvent: {}
+[9.216398] (-) TimerEvent: {}
+[9.317578] (-) TimerEvent: {}
+[9.418453] (-) TimerEvent: {}
+[9.520996] (-) TimerEvent: {}
+[9.622086] (-) TimerEvent: {}
+[9.723420] (-) TimerEvent: {}
+[9.825654] (-) TimerEvent: {}
+[9.926364] (-) TimerEvent: {}
+[10.027274] (-) TimerEvent: {}
+[10.128101] (-) TimerEvent: {}
+[10.229071] (-) TimerEvent: {}
+[10.330187] (-) TimerEvent: {}
+[10.431958] (-) TimerEvent: {}
+[10.534632] (-) TimerEvent: {}
+[10.637941] (-) TimerEvent: {}
+[10.739400] (-) TimerEvent: {}
+[10.841270] (-) TimerEvent: {}
+[10.943036] (-) TimerEvent: {}
+[11.044931] (-) TimerEvent: {}
+[11.147112] (-) TimerEvent: {}
+[11.249093] (-) TimerEvent: {}
+[11.350753] (-) TimerEvent: {}
+[11.451699] (-) TimerEvent: {}
+[11.552895] (-) TimerEvent: {}
+[11.654245] (-) TimerEvent: {}
+[11.755661] (-) TimerEvent: {}
+[11.856572] (-) TimerEvent: {}
+[11.957360] (-) TimerEvent: {}
+[12.058677] (-) TimerEvent: {}
+[12.159665] (-) TimerEvent: {}
+[12.260421] (-) TimerEvent: {}
+[12.361521] (-) TimerEvent: {}
+[12.462668] (-) TimerEvent: {}
+[12.563979] (-) TimerEvent: {}
+[12.665380] (-) TimerEvent: {}
+[12.766632] (-) TimerEvent: {}
+[12.867676] (-) TimerEvent: {}
+[12.969058] (-) TimerEvent: {}
+[13.070343] (-) TimerEvent: {}
+[13.171747] (-) TimerEvent: {}
+[13.273660] (-) TimerEvent: {}
+[13.375594] (-) TimerEvent: {}
+[13.476739] (-) TimerEvent: {}
+[13.577573] (-) TimerEvent: {}
+[13.678424] (-) TimerEvent: {}
+[13.780535] (-) TimerEvent: {}
+[13.881798] (-) TimerEvent: {}
+[13.983089] (-) TimerEvent: {}
+[14.084430] (-) TimerEvent: {}
+[14.185136] (-) TimerEvent: {}
+[14.286155] (-) TimerEvent: {}
+[14.386868] (-) TimerEvent: {}
+[14.491502] (-) TimerEvent: {}
+[14.592769] (-) TimerEvent: {}
+[14.695417] (-) TimerEvent: {}
+[14.796379] (-) TimerEvent: {}
+[14.897629] (-) TimerEvent: {}
+[14.998770] (-) TimerEvent: {}
+[15.099961] (-) TimerEvent: {}
+[15.201022] (-) TimerEvent: {}
+[15.302544] (-) TimerEvent: {}
+[15.406162] (-) TimerEvent: {}
+[15.509350] (-) TimerEvent: {}
+[15.610811] (-) TimerEvent: {}
+[15.712942] (-) TimerEvent: {}
+[15.815202] (-) TimerEvent: {}
+[15.916258] (-) TimerEvent: {}
+[16.017412] (-) TimerEvent: {}
+[16.119651] (-) TimerEvent: {}
+[16.221066] (-) TimerEvent: {}
+[16.323766] (-) TimerEvent: {}
+[16.425481] (-) TimerEvent: {}
+[16.526333] (-) TimerEvent: {}
+[16.627232] (-) TimerEvent: {}
+[16.730318] (-) TimerEvent: {}
+[16.834856] (-) TimerEvent: {}
+[16.935721] (-) TimerEvent: {}
+[17.036906] (-) TimerEvent: {}
+[17.138448] (-) TimerEvent: {}
+[17.239455] (-) TimerEvent: {}
+[17.340689] (-) TimerEvent: {}
+[17.442468] (-) TimerEvent: {}
+[17.543631] (-) TimerEvent: {}
+[17.645051] (-) TimerEvent: {}
+[17.745985] (-) TimerEvent: {}
+[17.847101] (-) TimerEvent: {}
+[17.947975] (-) TimerEvent: {}
+[18.049600] (-) TimerEvent: {}
+[18.151031] (-) TimerEvent: {}
+[18.252262] (-) TimerEvent: {}
+[18.354589] (-) TimerEvent: {}
+[18.456284] (-) TimerEvent: {}
+[18.558123] (-) TimerEvent: {}
+[18.659075] (-) TimerEvent: {}
+[18.760016] (-) TimerEvent: {}
+[18.861903] (-) TimerEvent: {}
+[18.963314] (-) TimerEvent: {}
+[19.066213] (-) TimerEvent: {}
+[19.167407] (-) TimerEvent: {}
+[19.268257] (-) TimerEvent: {}
+[19.369842] (-) TimerEvent: {}
+[19.470761] (-) TimerEvent: {}
+[19.572209] (-) TimerEvent: {}
+[19.673185] (-) TimerEvent: {}
+[19.774130] (-) TimerEvent: {}
+[19.875443] (-) TimerEvent: {}
+[19.976378] (-) TimerEvent: {}
+[20.077220] (-) TimerEvent: {}
+[20.178780] (-) TimerEvent: {}
+[20.279706] (-) TimerEvent: {}
+[20.380722] (-) TimerEvent: {}
+[20.482300] (-) TimerEvent: {}
+[20.583599] (-) TimerEvent: {}
+[20.684779] (-) TimerEvent: {}
+[20.785666] (-) TimerEvent: {}
+[20.886448] (-) TimerEvent: {}
+[20.987291] (-) TimerEvent: {}
+[21.089082] (-) TimerEvent: {}
+[21.189802] (-) TimerEvent: {}
+[21.292517] (-) TimerEvent: {}
+[21.394798] (-) TimerEvent: {}
+[21.427730] (sekirei_moveit_config) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable testn\x1b[0m\n'}
+[21.496392] (-) TimerEvent: {}
+[21.597735] (-) TimerEvent: {}
+[21.698902] (-) TimerEvent: {}
+[21.799754] (-) TimerEvent: {}
+[21.900949] (-) TimerEvent: {}
+[22.002574] (-) TimerEvent: {}
+[22.103937] (-) TimerEvent: {}
+[22.205124] (-) TimerEvent: {}
+[22.306688] (-) TimerEvent: {}
+[22.408504] (-) TimerEvent: {}
+[22.486169] (sekirei_moveit_config) StdoutLine: {'line': b'[100%] Built target testn\n'}
+[22.508949] (-) TimerEvent: {}
+[22.516727] (sekirei_moveit_config) CommandEnded: {'returncode': 0}
+[22.519106] (sekirei_moveit_config) JobProgress: {'identifier': 'sekirei_moveit_config', 'progress': 'install'}
+[22.540507] (sekirei_moveit_config) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config'], 'cwd': '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/opt/ros/jazzy/share', 'USER': 'yhcvy', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'MOTD_SHOWN': 'update-motd', 'HOME': '/home/yhcvy', 'OLDPWD': '/home/yhcvy/rodep-rescue2026', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yhcvy', 'NAME': 'LAPTOP-H4QB65NE', 'WSL_INTEROP': '/run/WSL/516_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Python38/Scripts/:/mnt/c/Python38/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Fujitsu/FJAgent/Core/bin:/mnt/c/Program Files (x86)/mingw64/bin:/mnt/c/ProgramData/chocolatey/bin:/mnt/c/Program Files/CMake/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2024b/runtime/win64:/mnt/c/Program Files/MATLAB/R2024b/bin:/mnt/c/Program Files/usbipd-win/:/mnt/c/Users/yhcvy/AppData/Local/Programs/Python/Python313/Scripts/:/mnt/c/Users/yhcvy/AppData/Local/Programs/Python/Python313/:/mnt/c/Users/yhcvy/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/yhcvy/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'CMAKE_PREFIX_PATH': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy', 'WSLENV': ''}), 'shell': False}
+[22.554230] (sekirei_moveit_config) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[22.555375] (sekirei_moveit_config) StdoutLine: {'line': b'-- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/testn\n'}
+[22.556714] (sekirei_moveit_config) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/testn" to ""\n'}
+[22.557534] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch\n'}
+[22.557884] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/demo.launch.py\n'}
+[22.558062] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/joy_control.launch.py\n'}
+[22.559105] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/joy_only.launch.py\n'}
+[22.560081] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config\n'}
+[22.561847] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ompl_planning.yaml\n'}
+[22.562308] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ompl_planning_simple.yaml\n'}
+[22.562473] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_cpp.yaml\n'}
+[22.562940] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ros2_controllers.yaml\n'}
+[22.563299] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/sekirei.srdf\n'}
+[22.563749] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_servo.yaml\n'}
+[22.564196] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_controllers.yaml\n'}
+[22.564713] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit.rviz\n'}
+[22.565008] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/sekirei_arm.srdf\n'}
+[22.565267] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/kinematics.yaml\n'}
+[22.566059] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/fake_controller.py\n'}
+[22.567354] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/joy_teleop.py\n'}
+[22.568476] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/package_run_dependencies/sekirei_moveit_config\n'}
+[22.570600] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/parent_prefix_path/sekirei_moveit_config\n'}
+[22.571025] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/ament_prefix_path.sh\n'}
+[22.571392] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/ament_prefix_path.dsv\n'}
+[22.571860] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/path.sh\n'}
+[22.572281] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/path.dsv\n'}
+[22.572456] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.bash\n'}
+[22.572635] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.sh\n'}
+[22.573107] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.zsh\n'}
+[22.573657] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.dsv\n'}
+[22.573740] (sekirei_moveit_config) StdoutLine: {'line': b'-- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/package.dsv\n'}
+[22.573910] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/packages/sekirei_moveit_config\n'}
+[22.574092] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/cmake/sekirei_moveit_configConfig.cmake\n'}
+[22.574226] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/cmake/sekirei_moveit_configConfig-version.cmake\n'}
+[22.574407] (sekirei_moveit_config) StdoutLine: {'line': b'-- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/package.xml\n'}
+[22.574554] (sekirei_moveit_config) CommandEnded: {'returncode': 0}
+[22.603371] (sekirei_moveit_config) JobEnded: {'identifier': 'sekirei_moveit_config', 'rc': 0}
+[22.607149] (-) EventReactorShutdown: {}

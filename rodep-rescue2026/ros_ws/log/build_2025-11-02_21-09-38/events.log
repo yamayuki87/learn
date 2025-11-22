@@ -1,0 +1,15 @@
+[0.000000] (-) TimerEvent: {}
+[0.000474] (-) JobUnselected: {'identifier': 'cam_to_image'}
+[0.000522] (-) JobUnselected: {'identifier': 'crawler_driver'}
+[0.000567] (-) JobUnselected: {'identifier': 'custom_interfaces'}
+[0.000583] (-) JobUnselected: {'identifier': 'flipper_driver'}
+[0.000596] (-) JobUnselected: {'identifier': 'joy_driver'}
+[0.000617] (-) JobUnselected: {'identifier': 'operator'}
+[0.000630] (-) JobUnselected: {'identifier': 'qrcode_reader'}
+[0.000655] (urdf_test_node) JobQueued: {'identifier': 'urdf_test_node', 'dependencies': OrderedDict()}
+[0.000677] (sekirei_moveit_config) JobQueued: {'identifier': 'sekirei_moveit_config', 'dependencies': OrderedDict({'urdf_test_node': '/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node'})}
+[0.000703] (urdf_test_node) JobStarted: {'identifier': 'urdf_test_node'}
+[0.065642] (urdf_test_node) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__\n    return await task_method(*args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_cmake/build.py", line 84, in build\n    create_environment_scripts(\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 91, in create_environment_scripts\n    create_file_with_runtime_dependencies(prefix_path, pkg))\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3/dist-packages/colcon_core/environment/__init__.py", line 174, in create_file_with_runtime_dependencies\n    path.write_text(\n  File "/usr/lib/python3.12/pathlib.py", line 1049, in write_text\n    with self.open(mode=\'w\', encoding=encoding, errors=errors, newline=newline) as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/usr/lib/python3.12/pathlib.py", line 1015, in open\n    return io.open(self, mode, buffering, encoding, errors, newline)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nPermissionError: [Errno 13] Permission denied: \'/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node/share/colcon-core/packages/urdf_test_node\'\n'}
+[0.067382] (urdf_test_node) JobEnded: {'identifier': 'urdf_test_node', 'rc': 1}
+[0.076457] (sekirei_moveit_config) JobSkipped: {'identifier': 'sekirei_moveit_config'}
+[0.076535] (-) EventReactorShutdown: {}

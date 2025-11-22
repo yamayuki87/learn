@@ -1,0 +1,64 @@
+[0.183s] Invoking command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config -- -j12 -l12
+[0.213s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.450s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.964s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.971s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.980s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.996s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.085s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.086s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.736s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.384s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[2.398s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[2.679s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[4.859s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[4.869s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[4.898s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[4.942s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.058s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[5.108s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[5.135s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[5.286s] -- Configuring done (5.1s)
+[5.409s] -- Generating done (0.1s)
+[5.427s] -- Build files have been written to: /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config
+[5.491s] [ 50%] [32mBuilding CXX object CMakeFiles/testn.dir/src/testn.cpp.o[0m
+[17.673s] [100%] [32m[1mLinking CXX executable testn[0m
+[18.958s] [100%] Built target testn
+[19.001s] Invoked command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config -- -j12 -l12
+[19.018s] Invoking command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config
+[19.030s] -- Install configuration: ""
+[19.030s] -- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/testn
+[19.031s] -- Set non-toolchain portion of runtime path of "/home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/testn" to ""
+[19.033s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch
+[19.035s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/demo.launch.py
+[19.036s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/joy_control.launch.py
+[19.037s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/launch/joy_only.launch.py
+[19.037s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ompl_planning.yaml
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ompl_planning_simple.yaml
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_cpp.yaml
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/ros2_controllers.yaml
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/sekirei.srdf
+[19.038s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_servo.yaml
+[19.039s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit_controllers.yaml
+[19.039s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/moveit.rviz
+[19.039s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/sekirei_arm.srdf
+[19.039s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/config/kinematics.yaml
+[19.040s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/fake_controller.py
+[19.040s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/lib/sekirei_moveit_config/joy_teleop.py
+[19.041s] -- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/package_run_dependencies/sekirei_moveit_config
+[19.041s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/parent_prefix_path/sekirei_moveit_config
+[19.041s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/ament_prefix_path.sh
+[19.041s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/ament_prefix_path.dsv
+[19.041s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/path.sh
+[19.042s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/environment/path.dsv
+[19.042s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.bash
+[19.042s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.sh
+[19.042s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.zsh
+[19.043s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/local_setup.dsv
+[19.043s] -- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/package.dsv
+[19.043s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/ament_index/resource_index/packages/sekirei_moveit_config
+[19.043s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/cmake/sekirei_moveit_configConfig.cmake
+[19.043s] -- Up-to-date: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/cmake/sekirei_moveit_configConfig-version.cmake
+[19.043s] -- Installing: /home/yhcvy/rodep-rescue2026/ros_ws/install/sekirei_moveit_config/share/sekirei_moveit_config/package.xml
+[19.046s] Invoked command in '/home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config' returned '0': AMENT_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/yhcvy/rodep-rescue2026/ros_ws/install/urdf_test_node:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/rodep-rescue2026/ros_ws/build/sekirei_moveit_config
