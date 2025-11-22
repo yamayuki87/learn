@@ -1,0 +1,9 @@
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/uninstall.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/sekirei_urdf_uninstall.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/test.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/edit_cache.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/rebuild_cache.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/list_install_components.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/install.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/install/local.dir
+/home/yhcvy/learn/ros2_ws/build/sekirei_urdf/CMakeFiles/install/strip.dir

@@ -1,0 +1,81 @@
+[0.038s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yhcvy/learn/ros2_ws/src/sekirei_urdf -DCMAKE_INSTALL_PREFIX=/home/yhcvy/learn/ros2_ws/install/sekirei_urdf
+[0.816s] -- The C compiler identification is GNU 13.3.0
+[2.451s] -- The CXX compiler identification is GNU 13.3.0
+[4.225s] -- Detecting C compiler ABI info
+[4.614s] -- Detecting C compiler ABI info - done
+[4.622s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.641s] -- Detecting C compile features
+[4.643s] -- Detecting C compile features - done
+[4.738s] -- Detecting CXX compiler ABI info
+[5.174s] -- Detecting CXX compiler ABI info - done
+[5.184s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.185s] -- Detecting CXX compile features
+[5.185s] -- Detecting CXX compile features - done
+[5.335s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.558s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.814s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.978s] -- Added test 'lint_cmake' to check CMake code style
+[5.982s] -- Added test 'xmllint' to check XML markup files
+[5.987s] -- Configuring done (5.8s)
+[5.992s] -- Generating done (0.0s)
+[5.997s] -- Build files have been written to: /home/yhcvy/learn/ros2_ws/build/sekirei_urdf
+[6.006s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yhcvy/learn/ros2_ws/src/sekirei_urdf -DCMAKE_INSTALL_PREFIX=/home/yhcvy/learn/ros2_ws/install/sekirei_urdf
+[6.008s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/learn/ros2_ws/build/sekirei_urdf -- -j12 -l12
+[6.054s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/learn/ros2_ws/build/sekirei_urdf -- -j12 -l12
+[6.068s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/learn/ros2_ws/build/sekirei_urdf
+[6.080s] -- Install configuration: ""
+[6.080s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/urdf
+[6.081s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/urdf/sekirei_moveit.urdf
+[6.082s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/srdf
+[6.082s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/srdf/sekirei.srdf
+[6.083s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/srdf/sekirei.srdf:Zone.Identifier
+[6.084s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes
+[6.084s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm1.STL:Zone.Identifier
+[6.084s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm5.STL:Zone.Identifier:Zone.Identifier
+[6.084s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/t265.STL:Zone.Identifier
+[6.085s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm6.STL
+[6.095s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm7_ver2.STL
+[6.125s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/t265.STL
+[6.149s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm5.STL:Zone.Identifier
+[6.149s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm5.STL
+[6.157s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm7_ver2.STL:Zone.Identifier:Zone.Identifier
+[6.157s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm6.STL:Zone.Identifier:Zone.Identifier
+[6.157s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm4.STL
+[6.167s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm3.STL:Zone.Identifier:Zone.Identifier
+[6.168s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/main.STL:Zone.Identifier:Zone.Identifier
+[6.168s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm1.STL:Zone.Identifier:Zone.Identifier
+[6.168s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm2.STL:Zone.Identifier:Zone.Identifier
+[6.168s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm6.STL:Zone.Identifier
+[6.168s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/t265.STL:Zone.Identifier:Zone.Identifier
+[6.169s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm2.STL
+[6.177s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm4.STL:Zone.Identifier
+[6.177s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/flipper.STL:Zone.Identifier
+[6.178s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/flipper.STL:Zone.Identifier:Zone.Identifier
+[6.178s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/main.STL:Zone.Identifier
+[6.178s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm4.STL:Zone.Identifier:Zone.Identifier
+[6.178s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm1.STL
+[6.186s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/main.STL
+[6.186s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_l_asm7_ver2.STL:Zone.Identifier
+[6.187s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm3.STL
+[6.190s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/d435.STL
+[6.199s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/d435.STL:Zone.Identifier
+[6.199s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/flipper.STL
+[6.199s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm2.STL:Zone.Identifier
+[6.199s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/r_a_2019_2020_asm3.STL:Zone.Identifier
+[6.199s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/meshes/d435.STL:Zone.Identifier:Zone.Identifier
+[6.200s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/ament_index/resource_index/package_run_dependencies/sekirei_urdf
+[6.200s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/ament_index/resource_index/parent_prefix_path/sekirei_urdf
+[6.201s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/environment/ament_prefix_path.sh
+[6.201s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/environment/ament_prefix_path.dsv
+[6.201s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/environment/path.sh
+[6.201s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/environment/path.dsv
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/local_setup.bash
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/local_setup.sh
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/local_setup.zsh
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/local_setup.dsv
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/package.dsv
+[6.202s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/ament_index/resource_index/packages/sekirei_urdf
+[6.203s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/cmake/sekirei_urdfConfig.cmake
+[6.203s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/cmake/sekirei_urdfConfig-version.cmake
+[6.203s] -- Installing: /home/yhcvy/learn/ros2_ws/install/sekirei_urdf/share/sekirei_urdf/package.xml
+[6.205s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/sekirei_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/learn/ros2_ws/build/sekirei_urdf

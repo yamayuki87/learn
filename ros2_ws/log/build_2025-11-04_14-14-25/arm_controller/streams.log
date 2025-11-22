@@ -1,0 +1,106 @@
+[0.045s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yhcvy/learn/ros2_ws/src/arm_controller -DCMAKE_INSTALL_PREFIX=/home/yhcvy/learn/ros2_ws/install/arm_controller
+[0.845s] -- The C compiler identification is GNU 13.3.0
+[2.480s] -- The CXX compiler identification is GNU 13.3.0
+[4.163s] -- Detecting C compiler ABI info
+[4.627s] -- Detecting C compiler ABI info - done
+[4.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.671s] -- Detecting C compile features
+[4.672s] -- Detecting C compile features - done
+[4.767s] -- Detecting CXX compiler ABI info
+[5.211s] -- Detecting CXX compiler ABI info - done
+[5.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[5.220s] -- Detecting CXX compile features
+[5.221s] -- Detecting CXX compile features - done
+[5.364s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[5.587s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[5.848s] -- Found rclcpp: 28.1.12 (/opt/ros/jazzy/share/rclcpp/cmake)
+[6.119s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[6.167s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[6.222s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.275s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.447s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[6.456s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[6.717s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[7.475s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[7.865s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.584s] -- Found moveit_ros_planning_interface: 2.12.3 (/opt/ros/jazzy/share/moveit_ros_planning_interface/cmake)
+[9.079s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: date_time filesystem program_options system thread 
+[9.677s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[15.190s] -- Found parameter_traits: 0.5.0 (/opt/ros/jazzy/share/parameter_traits/cmake)
+[15.226s] -- Found rclcpp_lifecycle: 28.1.12 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[15.303s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: filesystem 
+[15.653s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[15.653s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[16.079s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread chrono 
+[16.169s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: thread system filesystem regex date_time program_options 
+[16.248s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found version "1.83.0") found components: system filesystem date_time program_options thread 
+[16.366s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[16.540s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[16.541s] -- Configured cppcheck include dirs: 
+[16.541s] -- Configured cppcheck exclude dirs and/or files: 
+[16.543s] -- Added test 'flake8' to check Python code syntax and style conventions
+[16.543s] -- Configured 'flake8' exclude dirs and/or files: 
+[16.545s] -- Added test 'lint_cmake' to check CMake code style
+[16.547s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[16.551s] -- Added test 'uncrustify' to check C / C++ code style
+[16.551s] -- Configured uncrustify additional arguments: 
+[16.553s] -- Added test 'xmllint' to check XML markup files
+[16.555s] -- Configuring done (16.4s)
+[16.662s] -- Generating done (0.1s)
+[16.673s] -- Build files have been written to: /home/yhcvy/learn/ros2_ws/build/arm_controller
+[16.692s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yhcvy/learn/ros2_ws/src/arm_controller -DCMAKE_INSTALL_PREFIX=/home/yhcvy/learn/ros2_ws/install/arm_controller
+[16.694s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/learn/ros2_ws/build/arm_controller -- -j12 -l12
+[16.770s] [ 50%] [32mBuilding CXX object CMakeFiles/joy_moveit_teleop.dir/src/joy_moveit_teleop.cpp.o[0m
+[22.080s] In file included from [01m[K/home/yhcvy/learn/ros2_ws/src/arm_controller/src/joy_moveit_teleop.cpp:4[m[K:
+[22.080s] [01m[K/opt/ros/jazzy/include/moveit_ros_planning_interface/moveit/move_group_interface/move_group_interface.h:51:77:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: .h header is obsolete. Please use the .hpp header instead.[m[K’
+[22.080s]    51 | #pragma message(".h header is obsolete. Please use the .hpp header instead."[01;36m[K)[m[K
+[22.081s]       |                                                                             [01;36m[K^[m[K
+[35.311s] [100%] [32m[1mLinking CXX executable joy_moveit_teleop[0m
+[37.190s] [100%] Built target joy_moveit_teleop
+[37.202s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yhcvy/learn/ros2_ws/build/arm_controller -- -j12 -l12
+[37.205s] Invoking command in '/home/yhcvy/learn/ros2_ws/build/arm_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/learn/ros2_ws/build/arm_controller
+[37.220s] -- Install configuration: ""
+[37.220s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/lib/arm_controller/joy_moveit_teleop
+[37.228s] -- Set non-toolchain portion of runtime path of "/home/yhcvy/learn/ros2_ws/install/arm_controller/lib/arm_controller/joy_moveit_teleop" to ""
+[37.228s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/launch
+[37.228s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/launch/demo.launch.py
+[37.229s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/launch/demo.launch.py:Zone.Identifier
+[37.229s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/launch/joy_moveit_teleop.launch.py
+[37.230s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config
+[37.231s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ompl_planning_simple.yaml:Zone.Identifier
+[37.231s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit.rviz:Zone.Identifier
+[37.232s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ompl_planning.yaml
+[37.232s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_servo.yaml:Zone.Identifier
+[37.232s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ompl_planning_simple.yaml
+[37.234s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_cpp.yaml
+[37.234s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ros2_controllers.yaml
+[37.234s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ompl_planning.yaml:Zone.Identifier
+[37.234s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/kinematics.yaml:Zone.Identifier
+[37.235s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/sekirei.srdf
+[37.235s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_controllers.yaml:Zone.Identifier
+[37.235s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_servo.yaml
+[37.235s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_controllers.yaml
+[37.235s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/sekirei.srdf:Zone.Identifier
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit.rviz
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/moveit_cpp.yaml:Zone.Identifier
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/sekirei_arm.srdf:Zone.Identifier
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/sekirei_arm.srdf
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/kinematics.yaml
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/config/ros2_controllers.yaml:Zone.Identifier
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/lib/arm_controller/fake_controller.py
+[37.236s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/ament_index/resource_index/package_run_dependencies/arm_controller
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/ament_index/resource_index/parent_prefix_path/arm_controller
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.sh
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/environment/ament_prefix_path.dsv
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/environment/path.sh
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/environment/path.dsv
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/local_setup.bash
+[37.237s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/local_setup.sh
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/local_setup.zsh
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/local_setup.dsv
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/package.dsv
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/ament_index/resource_index/packages/arm_controller
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig.cmake
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/cmake/arm_controllerConfig-version.cmake
+[37.238s] -- Installing: /home/yhcvy/learn/ros2_ws/install/arm_controller/share/arm_controller/package.xml
+[37.240s] Invoked command in '/home/yhcvy/learn/ros2_ws/build/arm_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yhcvy/learn/ros2_ws/build/arm_controller
